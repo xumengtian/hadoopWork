@@ -25,7 +25,6 @@ import org.apache.hadoop.mapred.Reducer;
 import org.apache.hadoop.mapred.Reporter;
 import org.apache.hadoop.mapred.TextInputFormat;
 import org.apache.hadoop.mapred.TextOutputFormat;
-
 public class SecSort {
 	public static void main(String[] args) throws Exception{
 		JobConf conf=new JobConf(WordCount1.class);
